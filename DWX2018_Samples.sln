@@ -15,11 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark_Linq_DotNetCoreVs
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefAndSpan", "RefAndSpan", "{596CDF6B-74C4-40E6-A257-D18BFDC095D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructVsClass_Interation", "RefAndSpan\StructVsClass\StructVsClass_Interation.csproj", "{7B20127B-3FF7-4A69-A9C9-AB350AEC5730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructVsClass_Interation", "RefAndSpan\StructVsClass\StructVsClass_Interation.csproj", "{7B20127B-3FF7-4A69-A9C9-AB350AEC5730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructVsClass_MethodParameter", "RefAndSpan\StructVsClass_MethodParameter\StructVsClass_MethodParameter.csproj", "{6AD90B8B-E0D5-4EC3-80A1-76C1C9DB8876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructVsClass_MethodParameter", "RefAndSpan\StructVsClass_MethodParameter\StructVsClass_MethodParameter.csproj", "{6AD90B8B-E0D5-4EC3-80A1-76C1C9DB8876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructVsClass_MethodParameter_PassByReference", "RefAndSpan\StructVsClass_MethodParameter_PassByReference\StructVsClass_MethodParameter_PassByReference.csproj", "{8F110D5A-0197-48FA-B243-8A4D15C40B85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructVsClass_MethodParameter_PassByReference", "RefAndSpan\StructVsClass_MethodParameter_PassByReference\StructVsClass_MethodParameter_PassByReference.csproj", "{8F110D5A-0197-48FA-B243-8A4D15C40B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefReturnMatrix", "RefAndSpan\RefReturnMatrix\RefReturnMatrix.csproj", "{31498FC3-3B84-4D8E-8968-A6AFADDB3D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionWithRef", "RefAndSpan\CollectionWithRef\CollectionWithRef.csproj", "{03DBAEC8-59A8-4C9C-B33F-964CC464DF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanBasics", "RefAndSpan\SpanBasics\SpanBasics.csproj", "{1FEFF8DE-D848-4E74-87DE-B95F6C5F5125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringParsingWithSpan", "RefAndSpan\StringParsingWithSpan\StringParsingWithSpan.csproj", "{2EB733C5-AEE9-4A0A-8D46-2C5613CA78BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{8F110D5A-0197-48FA-B243-8A4D15C40B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F110D5A-0197-48FA-B243-8A4D15C40B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F110D5A-0197-48FA-B243-8A4D15C40B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31498FC3-3B84-4D8E-8968-A6AFADDB3D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31498FC3-3B84-4D8E-8968-A6AFADDB3D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31498FC3-3B84-4D8E-8968-A6AFADDB3D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31498FC3-3B84-4D8E-8968-A6AFADDB3D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DBAEC8-59A8-4C9C-B33F-964CC464DF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DBAEC8-59A8-4C9C-B33F-964CC464DF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DBAEC8-59A8-4C9C-B33F-964CC464DF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DBAEC8-59A8-4C9C-B33F-964CC464DF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEFF8DE-D848-4E74-87DE-B95F6C5F5125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEFF8DE-D848-4E74-87DE-B95F6C5F5125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEFF8DE-D848-4E74-87DE-B95F6C5F5125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEFF8DE-D848-4E74-87DE-B95F6C5F5125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB733C5-AEE9-4A0A-8D46-2C5613CA78BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB733C5-AEE9-4A0A-8D46-2C5613CA78BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB733C5-AEE9-4A0A-8D46-2C5613CA78BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB733C5-AEE9-4A0A-8D46-2C5613CA78BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +86,10 @@ Global
 		{7B20127B-3FF7-4A69-A9C9-AB350AEC5730} = {596CDF6B-74C4-40E6-A257-D18BFDC095D5}
 		{6AD90B8B-E0D5-4EC3-80A1-76C1C9DB8876} = {596CDF6B-74C4-40E6-A257-D18BFDC095D5}
 		{8F110D5A-0197-48FA-B243-8A4D15C40B85} = {596CDF6B-74C4-40E6-A257-D18BFDC095D5}
+		{31498FC3-3B84-4D8E-8968-A6AFADDB3D67} = {596CDF6B-74C4-40E6-A257-D18BFDC095D5}
+		{03DBAEC8-59A8-4C9C-B33F-964CC464DF08} = {596CDF6B-74C4-40E6-A257-D18BFDC095D5}
+		{1FEFF8DE-D848-4E74-87DE-B95F6C5F5125} = {596CDF6B-74C4-40E6-A257-D18BFDC095D5}
+		{2EB733C5-AEE9-4A0A-8D46-2C5613CA78BA} = {596CDF6B-74C4-40E6-A257-D18BFDC095D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B7A8259-2D03-4044-B883-19F6CD70405B}
