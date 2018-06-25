@@ -10,5 +10,5 @@ Intel Core i5-5200U CPU 2.20GHz (Broadwell), 1 CPU, 4 logical and 2 physical cor
 ```
 |                Method |      Mean |     Error |    StdDev |
 |---------------------- |----------:|----------:|----------:|
-|  BenchmarkMatrixClass |  9.281 ns | 0.0512 ns | 0.0479 ns |
-| BenchmarkMatrixStruct | 12.248 ns | 0.0131 ns | 0.0116 ns |
+|  BenchmarkMatrixClass |  9.315 ns | 0.0346 ns | 0.0307 ns |
+| BenchmarkMatrixStruct | 11.929 ns | 0.0116 ns | 0.0097 ns |
