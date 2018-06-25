@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Attributes.Exporters;
 using BenchmarkDotNet.Running;
 
 namespace StructVsClass_MethodParameter_PassByReference
@@ -50,6 +51,7 @@ namespace StructVsClass_MethodParameter_PassByReference
 		}
 	}
 
+	[RPlotExporter]
 	public class Program
 	{
 

@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Attributes.Exporters;
 using BenchmarkDotNet.Running;
 
 namespace StructVsClass_MethodParameter
@@ -50,6 +51,7 @@ namespace StructVsClass_MethodParameter
 		}
 	}
 
+	[RPlotExporter]
 	public class Program
 	{
 

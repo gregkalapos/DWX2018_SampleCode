@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Attributes.Exporters;
 using BenchmarkDotNet.Running;
 
 namespace StructVsClass
@@ -54,6 +55,7 @@ namespace StructVsClass
 		}
 	}
 
+	[RPlotExporter]
 	public class Program
 	{
 		static void Main(string[] args)

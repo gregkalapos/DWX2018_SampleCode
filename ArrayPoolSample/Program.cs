@@ -2,11 +2,13 @@
 using System.Buffers;
 using System.Diagnostics;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Attributes.Exporters;
 using BenchmarkDotNet.Running;
 
 namespace ArrayPoolSample
 {
 	[MemoryDiagnoser]
+	[RPlotExporter]
 	public class Program
 	{
 		static void Main(string[] args)

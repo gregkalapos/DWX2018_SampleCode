@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Attributes.Exporters;
 using BenchmarkDotNet.Running;
 
 namespace StringParsingWithSpan
@@ -10,6 +12,7 @@ namespace StringParsingWithSpan
 	/// between parsing a string with System.Substring vs. ReadOnlySpan<char>
 	/// </summary>
 	[MemoryDiagnoser]
+	[RPlotExporter]
 	public class Program
 	{
 		static void Main(string[] args)
